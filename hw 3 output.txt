@@ -1,0 +1,54 @@
+Microsoft Windows [Version 10.0.16299.125]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\Jaryl>cd desktop
+
+C:\Users\Jaryl\Desktop>cd StringClass
+
+C:\Users\Jaryl\Desktop\StringClass>cd src
+
+C:\Users\Jaryl\Desktop\StringClass\src>javac StringClass.java
+
+C:\Users\Jaryl\Desktop\StringClass\src>java StringClass
+Please enter a string:
+The world is mines
+The String is: The world is mines
+Length of the string: 18
+Please enter an index please:
+4
+The value at the index 4 is: w
+Please enter indices  new String [Index1  Index2]
+5 8
+The indices 5 8
+The substring is: orld
+The string in all upper case is: THE WORLD IS MINES
+The string in all lower case  is: the world is mines
+Please enter an INTEGER value to convert:
+2
+Value of 2 is: 2 with the length: 1
+Enter word to compare:
+the world is mines
+The world is mines compare to the world is mines gives you a value of 0
+
+C:\Users\Jaryl\Desktop\StringClass\src>java StringClass
+Please enter a string:
+the world is mines
+The String is: the world is mines
+Length of the string: 18
+Please enter an index please:
+2
+The value at the index 2 is: e
+Please enter indices  new String [Index1  Index2]
+10 12
+The indices 10 12
+The substring is: is
+The string in all upper case is: THE WORLD IS MINES
+The string in all lower case  is: the world is mines
+Please enter an INTEGER value to convert:
+4
+Value of 4 is: 4 with the length: 1
+Enter word to compare:
+the world is for everyone stop being greedy
+the world is mines compare to the world is for everyone stop being greedy gives you a value of -1
+
+C:\Users\Jaryl\Desktop\StringClass\src>
